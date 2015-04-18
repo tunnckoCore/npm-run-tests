@@ -1,6 +1,6 @@
 {
   "name": "npm-run-tests",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Run tests of the given globally or locally installed npm package, e.g. `npm test <packageName>`",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
