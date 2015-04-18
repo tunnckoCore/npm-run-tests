@@ -17,7 +17,16 @@
     "type": "git",
     "url": "git://github.com/tunnckoCore/npm-run-tests.git"
   },
-  "keywords": [],
+  "keywords": [
+    "global",
+    "local",
+    "npm",
+    "package",
+    "pkg",
+    "run",
+    "testing",
+    "tests"
+  ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/npm-run-tests/blob/master/license.md"
