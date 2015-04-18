@@ -1,5 +1,5 @@
 /**
- * npm-test <https://github.com/tunnckoCore/npm-test>
+ * npm-run-tests <https://github.com/tunnckoCore/npm-run-tests>
  *
  * Copyright (c) 2015 Charlike Mike Reagent, contributors.
  * Released under the MIT license.
@@ -13,7 +13,7 @@ var run = require('spawn-commands');
 var installedPath = require('get-installed-path');
 var exit = process.exit;
 
-module.exports = function npmTest(name, local) {
+module.exports = function npmRunTest(name, local) {
   var fp = installedPath(name, local);
 
   if (fp.length) {

@@ -4,5 +4,3 @@ node_js:
   - "0.10"
   - "0.12"
   - "iojs"
-script: "npm run-script test-travis"
-after_script: "npm install coveralls && cat ./coverage/lcov.info | coveralls"
